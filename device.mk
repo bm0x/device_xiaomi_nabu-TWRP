@@ -16,6 +16,7 @@ TARGET_RECOVERY_DEVICE_MODULES += libion vendor.display.config@1.0 vendor.displa
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 TW_OVERRIDE_SYSTEM_PROPS := \
     "ro.build.fingerprint=ro.system.build.fingerprint;ro.build.version.incremental"
+TW_THEME := portrait_hdpi
 
 # Set shipping API level to 30
 PRODUCT_SHIPPING_API_LEVEL := 30
